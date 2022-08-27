@@ -6,19 +6,89 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
 
 .container {
   width: 1280px;
   margin: 0 auto;
+}
+.flex {
+  display: flex;
 }
 
 /* ====================================
     Navbar Start
 ======================================= */
 nav {
-  height: 100px;
   background-color: #1c1e53;
+  padding: 32px 0;
+}
+nav .logo {
+  width: 20%;
+  align-items: center;
+}
+nav .logo h1 {
+  color: #fff;
+}
+
+nav .nav-items {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 48px;
+}
+nav .nav-items ul {
+  display: flex;
+  gap: 32px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+nav .nav-items .btn {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  border: 1px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
+  border-radius: 41px;
 }
 /* ====================================
     Navbar End
+======================================= */
+
+/* ====================================
+    Banner Start
+======================================= */
+.banner {
+  height: 500px;
+  background-color: #1c1e53;
+}
+.banner .text {
+  width: 50%;
+}
+.banner .text h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  color: #fff;
+}
+.banner .text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+  opacity: 0.7;
+}
+.banner .img {
+  width: 50%;
+}
+/* ====================================
+    Banner End
 ======================================= */
