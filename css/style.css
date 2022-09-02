@@ -13,6 +13,9 @@ ul,
 ol {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 
 .container {
   width: 1280px;
@@ -21,7 +24,28 @@ ol {
 .flex {
   display: flex;
 }
-
+.title h2 {
+  font-weight: 600;
+  font-size: 48px;
+  color: #1b1c2b;
+}
+.title p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #282938;
+  line-height: 28px;
+  width: 405px;
+}
+.title a {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #2405f2;
+  margin-top: 16px;
+}
+.title a i {
+  margin-left: 16px;
+}
 /* ====================================
     Navbar Start
 ======================================= */
@@ -52,6 +76,7 @@ nav .nav-items ul {
   color: #fff;
 }
 nav .nav-items .btn {
+  display: inline-block;
   font-size: 16px;
   font-weight: 500;
   color: #fff;
@@ -67,8 +92,8 @@ nav .nav-items .btn {
     Banner Start
 ======================================= */
 .banner {
-  height: 500px;
   background-color: #1c1e53;
+  padding: 126px 0;
 }
 .banner .text {
   width: 50%;
@@ -85,10 +110,71 @@ nav .nav-items .btn {
   line-height: 28px;
   color: #fff;
   opacity: 0.7;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
+.banner .text .work {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #1b1c2b;
+  background-color: #fcd980;
+  padding: 16px 56px;
+  border-radius: 41px;
+  display: inline-block;
+}
+.banner .text .pricing {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 40px;
+  display: inline-block;
+}
+.banner .text .pricing i {
+  margin-left: 16px;
+}
+
 .banner .img {
   width: 50%;
 }
+
 /* ====================================
     Banner End
+======================================= */
+
+/* ====================================
+    Work Start
+======================================= */
+
+.work {
+  margin-top: 128px;
+}
+.work .left {
+  width: 40%;
+}
+.work .right {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.work .right .worklist {
+  width: 49%;
+  margin-bottom: 48px;
+}
+.work .right .worklist h3 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #1b1c2b;
+  margin-top: 16px;
+}
+.work .right .worklist p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1b1c2b;
+  width: 303px;
+  margin-top: 8px;
+}
+/* ====================================
+    Work End
 ======================================= */
