@@ -185,6 +185,61 @@ nav .nav-items .btn {
 /* ====================================
     Project Start
 ======================================= */
+.project {
+}
+.project .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project .title a {
+  color: #1b1c2b;
+}
+.project .flex {
+  justify-content: space-between;
+}
+.project .left {
+  width: 80%;
+  outline: 1px solid red;
+  position: relative;
+}
+.project .left img {
+  width: 100%;
+  display: block;
+}
+.project .left .text-box {
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    333deg,
+    rgba(28, 30, 83, 1) 0%,
+    rgba(28, 30, 83, 0.42) 100%
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.project .left .text-box .details {
+  width: 313px;
+}
+.project .left .text-box .details h4 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #fff;
+}
+.project .left .text-box .details p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+
+.project .right {
+  width: 20%;
+}
 
 /* ====================================
     Project End
